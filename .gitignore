@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# HuggingFace cache (downloaded models & datasets)
+data/hf_cache/
+
+# Output files (generated at runtime)
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
