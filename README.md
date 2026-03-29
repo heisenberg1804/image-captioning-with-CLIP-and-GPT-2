@@ -42,17 +42,6 @@ An end-to-end image captioning pipeline that generates natural language descript
 
 ---
 
-## Team
-
-| Member | Role |
-|--------|------|
-| A | Data Pipeline & Embeddings |
-| B | Model Architecture |
-| C | Training & Evaluation |
-| D | Inference & Presentation |
-
----
-
 ## Quick Start
 
 ### Prerequisites

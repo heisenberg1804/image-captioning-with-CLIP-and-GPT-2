@@ -1,0 +1,47 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 4.7619,
+    "val_loss": 3.3115,
+    "sample_gt": "a table in the sun with a white cloth, beef sandwich, glass of beer, and bottle of wine.",
+    "sample_greedy": "a large plate of chicken and cheese.\n\nI'm not sure if I'm going to eat it. I'm not sure if I'm going to eat it. I'm not sure if I'm going to eat it.\n\nI'm",
+    "sample_beam": "a hot dog with a hot dog on it. It's a hot dog with a hot dog on it. It's a hot dog with a hot dog on it. It's a hot dog with a hot dog on it. It's a hot",
+    "sample_nucleus": "my food with vegetables and bread. When I make the croissants and bread, I'll add them to the hot food. I like to make them at least once a week and the food gets crispy and crispy. I like to do it in"
+  },
+  {
+    "epoch": 2,
+    "train_loss": 3.1756,
+    "val_loss": 2.8757,
+    "sample_gt": "a table in the sun with a white cloth, beef sandwich, glass of beer, and bottle of wine.",
+    "sample_greedy": "a large plate of pizza with a large slice of cheese on top. The pizza is served with a large slice of cheese. The pizza is served with a large slice of cheese. The pizza is served with a large slice of cheese. The pizza is",
+    "sample_beam": "a large plate of pizza is sitting on top of a plate of pizza. The pizza is filled with toppings. The pizza is filled with toppings. The pizza is filled with toppings. The pizza is filled with toppings. The pizza is",
+    "sample_nucleus": "a plate of food being served on top of a serving of pizza. The food is a mixture of tomato, egg and eggs. The next day the food is served.\n\nThe next day the food is served and the pizza is cooked. The"
+  },
+  {
+    "epoch": 3,
+    "train_loss": 2.9212,
+    "val_loss": 2.8248,
+    "sample_gt": "a table in the sun with a white cloth, beef sandwich, glass of beer, and bottle of wine.",
+    "sample_greedy": "a plate of pizza with a pizza on top. The pizza is on top of a plate. The pizza is on top of a plate. The pizza is on top of a plate. The pizza is on top of a plate. The pizza is on",
+    "sample_beam": "a large plate of food is sitting on top of a table. There is a large plate of food on top of it. There is a large plate of food on top of it. There is a large plate of food on top of it. There",
+    "sample_nucleus": "a big plate of pizza with a large ice cream cone. The pizza is a big pizza with a large ice cream cone on top. The pizza is white and the pizza has an ice cream cone on top. There is also a large plate of food"
+  },
+  {
+    "epoch": 4,
+    "train_loss": 2.831,
+    "val_loss": 2.795,
+    "sample_gt": "a table in the sun with a white cloth, beef sandwich, glass of beer, and bottle of wine.",
+    "sample_greedy": "a plate of food with a large plate of food on it. The food is covered in a sauce. The food is covered in a sauce. The food is covered in a sauce. The food is covered in a sauce. The food is covered in",
+    "sample_beam": "a plate of food on a table with a glass of wine on top. The glasses are on top of each other. The glasses are on top of each other. The glasses are on top of each other. The glasses are on top of each other",
+    "sample_nucleus": "a plate of beer and pizza on a plate with a slice of pizza. It is covered in cheese. The chef is serving a red salad. The pizza is being served on a plate.\n\nThis is a plate of cheese with some toppings"
+  },
+  {
+    "epoch": 5,
+    "train_loss": 2.8159,
+    "val_loss": 2.73,
+    "sample_gt": "a table in the sun with a white cloth, beef sandwich, glass of beer, and bottle of wine.",
+    "sample_greedy": "a plate of food is sitting on top of a plate. The food is covered in a sauce. The food is covered in a sauce. The food is covered in a sauce. The food is covered in a sauce. The food is covered in a",
+    "sample_beam": "a plate of food is sitting on top of a plate. The food is sitting on top of a plate. The food is sitting on top of a plate. The food is sitting on top of a plate. The food is sitting on top of a",
+    "sample_nucleus": "a large pizza on a plate and a brown paper towel next to it. The pizza is decorated with toppings. On a white table in a kitchen, the pizza is open with some toppings.\n\nIn the kitchen, the pizza is covered"
+  }
+]
