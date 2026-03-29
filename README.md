@@ -36,7 +36,7 @@ An end-to-end image captioning pipeline that generates natural language descript
 | Milestone | Description | Status |
 |-----------|-------------|--------|
 | M1 | Data pipeline, CLIP embeddings, GPT-2 tokenization, proposal | ✅ Complete |
-| M2 | CLIP+GPT-2 integration, training, decoding strategy experiments | 🔄 In Progress |
+| M2 | CLIP+GPT-2 integration, training, decoding strategy experiments | ✅ Complete |
 | M3 | Evaluation (BLEU/CIDEr metrics) and inference demo | ⬚ Upcoming |
 | M4 | Final report and presentation | ⬚ Upcoming |
 
