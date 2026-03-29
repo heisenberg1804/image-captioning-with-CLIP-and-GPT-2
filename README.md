@@ -22,9 +22,12 @@ An end-to-end image captioning pipeline that generates natural language descript
 
 ## Sample Output
 
-Below are 5 test samples from the Milestone 1 pipeline. Each image is encoded into a 512-dim CLIP embedding and its caption is tokenized with GPT-2's BPE tokenizer.
-
+### Milestone 1 — Pipeline Verification
 ![Sample Test Runs](outputs/sample_test_runs.png)
+
+### Milestone 2 — Training & Decoding Comparison
+![Training Curves](outputs/training_curves.png)
+![Decoding Comparison](outputs/decoding_comparison.png)
 
 ---
 
@@ -33,7 +36,7 @@ Below are 5 test samples from the Milestone 1 pipeline. Each image is encoded in
 | Milestone | Description | Status |
 |-----------|-------------|--------|
 | M1 | Data pipeline, CLIP embeddings, GPT-2 tokenization, proposal | ✅ Complete |
-| M2 | Model training (mapping network + LoRA fine-tuning on Colab) | 🔄 In Progress |
+| M2 | CLIP+GPT-2 integration, training, decoding strategy experiments | 🔄 In Progress |
 | M3 | Evaluation (BLEU/CIDEr metrics) and inference demo | ⬚ Upcoming |
 | M4 | Final report and presentation | ⬚ Upcoming |
 
