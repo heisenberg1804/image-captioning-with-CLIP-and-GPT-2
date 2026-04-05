@@ -1,0 +1,201 @@
+{
+  "decoding_strategy_comparison": {
+    "Greedy": {
+      "BLEU-1": 17.18,
+      "BLEU-2": 11.28,
+      "BLEU-3": 7.07,
+      "BLEU-4": 4.3,
+      "METEOR": 29.92,
+      "ROUGE-L": 19.37,
+      "CIDEr": 7.21
+    },
+    "Beam (k=5)": {
+      "BLEU-1": 17.05,
+      "BLEU-2": 10.67,
+      "BLEU-3": 6.47,
+      "BLEU-4": 3.9,
+      "METEOR": 31.32,
+      "ROUGE-L": 19.59,
+      "CIDEr": 7.69
+    },
+    "Nucleus (p=0.9)": {
+      "BLEU-1": 21.42,
+      "BLEU-2": 11.63,
+      "BLEU-3": 5.61,
+      "BLEU-4": 2.53,
+      "METEOR": 29.91,
+      "ROUGE-L": 19.86,
+      "CIDEr": 5.41
+    }
+  },
+  "temperature_sweep": {
+    "0.5": {
+      "BLEU-1": 19.46,
+      "BLEU-2": 12.3,
+      "BLEU-3": 7.4,
+      "BLEU-4": 4.62,
+      "METEOR": 30.49,
+      "ROUGE-L": 20.36,
+      "CIDEr": 7.76
+    },
+    "0.7": {
+      "BLEU-1": 20.9,
+      "BLEU-2": 12.57,
+      "BLEU-3": 6.75,
+      "BLEU-4": 3.61,
+      "METEOR": 30.34,
+      "ROUGE-L": 20.09,
+      "CIDEr": 6.42
+    },
+    "0.8": {
+      "BLEU-1": 21.35,
+      "BLEU-2": 12.12,
+      "BLEU-3": 6.14,
+      "BLEU-4": 3.16,
+      "METEOR": 29.99,
+      "ROUGE-L": 19.81,
+      "CIDEr": 5.6
+    },
+    "1.0": {
+      "BLEU-1": 20.66,
+      "BLEU-2": 10.52,
+      "BLEU-3": 4.74,
+      "BLEU-4": 2.01,
+      "METEOR": 29.43,
+      "ROUGE-L": 18.4,
+      "CIDEr": 4.05
+    },
+    "1.2": {
+      "BLEU-1": 18.11,
+      "BLEU-2": 6.88,
+      "BLEU-3": 2.47,
+      "BLEU-4": 1.05,
+      "METEOR": 25.47,
+      "ROUGE-L": 15.61,
+      "CIDEr": 1.93
+    }
+  },
+  "beam_width_sweep": {
+    "1": {
+      "BLEU-1": 17.18,
+      "BLEU-2": 11.28,
+      "BLEU-3": 7.07,
+      "BLEU-4": 4.3,
+      "METEOR": 29.92,
+      "ROUGE-L": 19.37,
+      "CIDEr": 7.21
+    },
+    "3": {
+      "BLEU-1": 17.02,
+      "BLEU-2": 10.81,
+      "BLEU-3": 6.81,
+      "BLEU-4": 4.09,
+      "METEOR": 30.29,
+      "ROUGE-L": 19.55,
+      "CIDEr": 7.46
+    },
+    "5": {
+      "BLEU-1": 17.05,
+      "BLEU-2": 10.67,
+      "BLEU-3": 6.47,
+      "BLEU-4": 3.9,
+      "METEOR": 31.32,
+      "ROUGE-L": 19.59,
+      "CIDEr": 7.69
+    },
+    "10": {
+      "BLEU-1": 17.1,
+      "BLEU-2": 10.65,
+      "BLEU-3": 6.6,
+      "BLEU-4": 4.07,
+      "METEOR": 31.42,
+      "ROUGE-L": 20.39,
+      "CIDEr": 8.02
+    }
+  },
+  "finetuning_comparison": {
+    "LoRA": {
+      "BLEU-1": 21.8,
+      "BLEU-2": 12.87,
+      "BLEU-3": 7.24,
+      "BLEU-4": 4.07,
+      "METEOR": 31.74,
+      "ROUGE-L": 20.68,
+      "CIDEr": 6.67
+    },
+    "Mapping-only": {
+      "BLEU-1": 20.64,
+      "BLEU-2": 11.31,
+      "BLEU-3": 5.98,
+      "BLEU-4": 3.02,
+      "METEOR": 28.13,
+      "ROUGE-L": 19.67,
+      "CIDEr": 4.72
+    },
+    "Full fine-tune": {
+      "BLEU-1": 23.84,
+      "BLEU-2": 14.91,
+      "BLEU-3": 8.94,
+      "BLEU-4": 4.97,
+      "METEOR": 33.98,
+      "ROUGE-L": 21.95,
+      "CIDEr": 8.84
+    }
+  },
+  "training_logs": {
+    "mapping_only": [
+      {
+        "epoch": 1,
+        "train_loss": 4.9538,
+        "val_loss": 3.2215
+      },
+      {
+        "epoch": 2,
+        "train_loss": 3.3379,
+        "val_loss": 2.9648
+      },
+      {
+        "epoch": 3,
+        "train_loss": 3.0826,
+        "val_loss": 2.9213
+      },
+      {
+        "epoch": 4,
+        "train_loss": 3.0253,
+        "val_loss": 2.7734
+      },
+      {
+        "epoch": 5,
+        "train_loss": 2.9633,
+        "val_loss": 2.7158
+      }
+    ],
+    "full_finetune": [
+      {
+        "epoch": 1,
+        "train_loss": 3.9131,
+        "val_loss": 2.8682
+      },
+      {
+        "epoch": 2,
+        "train_loss": 2.8935,
+        "val_loss": 2.7557
+      },
+      {
+        "epoch": 3,
+        "train_loss": 2.6552,
+        "val_loss": 2.6742
+      },
+      {
+        "epoch": 4,
+        "train_loss": 2.442,
+        "val_loss": 2.6951
+      },
+      {
+        "epoch": 5,
+        "train_loss": 2.3373,
+        "val_loss": 2.4367
+      }
+    ]
+  }
+}
