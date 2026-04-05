@@ -31,3 +31,6 @@ Thumbs.db
 
 # Jupyter
 .ipynb_checkpoints/
+
+#model
+milestone3/*.pt
